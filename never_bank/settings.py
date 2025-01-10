@@ -29,6 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ["*"]    
 
 INSTALLED_APPS = [
     'django.contrib.admin',
